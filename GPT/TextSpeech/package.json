@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no te s t specified\" && exit 1"
+},
+  "dependencies": {
+    "openai": "^4.20.1"
+  },
+  "type": "module"
+}
