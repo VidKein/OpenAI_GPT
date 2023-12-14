@@ -1,1 +1,0 @@
-https://community.openai.com/t/is-openai-speech-to-text-is-available-in-node-js/308643/2
