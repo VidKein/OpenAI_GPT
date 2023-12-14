@@ -10,7 +10,7 @@ async function main() {
   const mp3 = await openai.audio.speech.create({
     model: "tts-1",
     voice: "alloy",
-    input: "Dobré odpoledne. Jak mohu pomoci. Mám otázku",
+    input: "Dobré odpoledne. Jak mohu pomoci. Mám otázku. Jak začít s AI ?",
   });
   console.log(speechFile);
   const buffer = Buffer.from(await mp3.arrayBuffer());
